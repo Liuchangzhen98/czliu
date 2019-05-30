@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-weight: normal;
+    font-family: arial;
+}
+
+html {
+    font-size: 62.5%;
+    width: 100%;
+}
+
+body {
+    font-size: 1.4rem;
+    color: #eeeeee;
+    background: url(images/bg.jpeg)  center center fixed;
+}
+
+a {
+    color: #eeeeee;
+}
+
+p {
+    color: #eeeeee;
+}
+
+h1 {
+    margin: 30px 0 50px;
+    font-size: 3rem
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+h3 {
+    margin: 20px 0
+}
+
+hr {
+    width: 80%;
+    height:1px;
+    background: #eeeeee;
+    border: 0;
+    margin: 0 auto 10px auto;
+}
+
+table {
+    border-collapse: collapse
+}
+
+input, textarea, button {
+    outline: none;
+    padding: 12px;
+    font-size: 1.4rem;
+    border: 1px solid #e5e5e5;
+    background: none
+}
+
+.wrapper{
+    width: 100%;
+    height: 550px;
+    display: block;
+    color: #eeeeee;
+}
+
+/* 页脚 */
+footer .container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+footer .container .copyright {
+    flex-grow: 1;
+}
+
+/* 导航区 */
+nav{
+	width: 100%;
+    position: relative;}
+
+nav .nav_wrap {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2.4rem 0;
+    overflow: hidden;}
+
+.me_logo {
+    width: 20%;
+    float: left;}
+
+.me_logo a {
+    font-size: 5rem;
+}
+
+.nav_bar {
+    width: 40%;
+    float: right;}
+
+.nav_bar ul li {
+    width: 20%;
+    float:left;
+    font-size: 1.8rem}
+
+.nav_bar ul li a {
+    display: block;
+    padding: 2rem 0;
+    margin: 0 1.4rem;
+    text-align: center;
+    position: relative;
+    transition: color .5s ease-in;
+    -moz-transition: color .5s ease-in;
+    -webkit-transition: color .5s ease-in;
+    -o-transition: color .5s ease-in}
+
+.nav_bar ul li a:hover {
+    color: #80d6f2}
+
+.nav_bar ul li a:after {
+    width: 0;
+    height: 1px;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    background: #80d6f2;
+    transition: width .5s ease-in;
+    -moz-transition: width .5s ease-in;
+    -webkit-transition: width .5s ease-in;
+    -o-transition: width .5s ease-in}
+
+.nav_bar ul li a:hover:after {
+    width: 100%}
+
+/* ------------------------------------ */
+/* page1 */
+/* index */
+.cen_con{
+	width: 50%;
+	height: 60%;
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+	text-align: left;
+	overflow: hidden;
+}
+
+.portrait {
+    height: 32%;
+    margin: 0 auto 8%;
+    padding: 6px;
+    text-align: left;
+}
+
+.portrait img {
+    height: 100%;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+.cen_text h2 {
+    height: 18%;
+    min-height:38px;
+    margin: 0;
+}
+
+.cen_text h3 {
+    height: 18%;
+	min-height: 32px;
+	margin: 0;
+}
+
+.cen_text hr {
+    width: 100%;
+}
+
+
+/* -------------表格部分------------------ */
+/* page2 */
+/* resume */
+
+.con_wrap{
+	width: 80%;
+	margin: 0 auto 0;
+	padding: 2rem 0;
+	overflow: hidden;
+}
+
+.tit_wrap{
+	text-align: center;
+}
+
+.tit_wrap h1 {
+    width: 100%;
+    margin: 30px auto 20px;
+    position: relative;
+    line-height: 4.2rem;
+}
+
+.tit_wrap h2{
+    margin: 10px 0 0 0 ;
+}
+
+.myinfo{
+	width: 100%;
+	float: left;
+	padding: 0 20px;
+}
+
+.myinfo table{
+    width: 60%;
+    margin: 20px auto;
+}
+
+.myinfo td{
+    font-size: 1.8rem;
+    padding: 15px 15px 15px 30px;
+    text-align: left;
+}
+
+.myinfo td p{
+    padding: 10px 0 0 0;
+}
+
+.myinfo td span{
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+
+.myinfo td img{
+    height: 100%;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+/* -----------------表单部分------------------- */
+/* page4 */
+/* contact */
+
+.contact_detail {
+    margin-top: 20px;
+}
+
+.contact_info {
+	width: 100%;
+}
+
+.contact_info form {
+    width: 100%;
+    overflow: hidden;
+    padding: 5px 0;
+}
+
+.contact_info label {
+    width: 33.33%;
+    padding: 0 10px 0 0;
+    height: 70px;
+    float: left;
+}
+
+.contact_info label p {
+    color: red;
+    line-height: 2rem;
+    padding: 0 12px;
+}
+
+.contact_info input[type="text"] {
+    width: 100%;
+    float: left;
+    background: #ffffff;
+    color: #333333;
+		    
+}
+
+.contact_info label:nth-child(3) {
+    padding: 0;
+}
+
+.contact_info label:nth-child(4) {
+    width: 100%;
+    height: 215px;
+    padding: 0;
+}
+
+.contact_info textarea {
+    width: 100%;
+    height: 180px;
+    background: #ffffff;
+    resize:none;
+    color: #333333;
+}
+
+.a-button {
+    text-align: center;
+    width: 100%;
+}
+
+.a-button button {
+    color: #fff;
+    padding: 0.6em 1.4em;
+    font-size: 1.4rem;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #55C1E5;
+    background: #55C1E5; 
+}
+
+
+/* --------------------------------- */
+/* page3 */
+/* music sharing */
+#page3 {
+    height: 100%;
+}
+
+.music_con {
+    position: relative;
+}
+
+.music_item {
+    float: left;
+    display: block;
+    margin-right: 1.20482%;
+    width: 57.83133%;
+    margin-left: 18.9759%;
+    padding: 2em 0px;
+    margin-top: 50px;
+}
+
+.music_item img {
+    height: auto;
+    float: left;
+    display: block;
+    margin-right: 1.20482%;
+    width: 24.09639%;
+    border-radius: 50%;
+}
+
+.music_item h2 {
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0 0 0 0;
+}
+
+.music_item p {
+    line-height: 28px;
+    font-size: 1.2em;
+    margin-left: 250px;
+}
